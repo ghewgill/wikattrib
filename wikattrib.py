@@ -1,4 +1,4 @@
-# wikiblame - edit attribution for mediawiki
+# wikattrib - edit attribution for mediawiki
 # Copyright (c) 2013  Greg Hewgill <greg@hewgill.com>
 #
 # This program is free software; you can redistribute it and/or

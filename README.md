@@ -1,4 +1,4 @@
-# wikiblame
+# wikattrib
 
 This program processes a MediaWiki full dump file to create a set of pages that
 can be used to easily identify the original author of any word on the page.
@@ -23,10 +23,10 @@ dump file into a set of files, one file per page.
     ./dumpsplit simplewiki-20130203-pages-meta-history.xml.7z out
 
 The above will create a few thousand `.xz` files in the `out/` subdirectory.
-Then, the `wikiblame.py` script will create the HTML blame output for a single page:
+Then, the `wikattrib.py` script will create the HTML attribution output for a single page:
 
     mkdir html
-    python wikiblame.py simple out Aardvark html
+    python wikattrib.py simple out Aardvark html
 
 The `go` script can be used to run this for every file in the `out` directory.
 
